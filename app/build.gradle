@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 25
+  compileSdkVersion 27
   buildToolsVersion '27.0.3'
 
   flavorDimensions "default"
@@ -10,8 +10,8 @@ android {
     applicationId "com.asfoundation.trivialdrivesample"
     minSdkVersion 21
     targetSdkVersion 27
-    versionCode 16
-    versionName "1.9.4"
+    versionCode 17
+    versionName "1.9.6"
     multiDexEnabled true
   }
 
@@ -61,10 +61,10 @@ android {
 }
 
 dependencies {
-  implementation 'com.android.support:appcompat-v7:25.4.0'
+  implementation 'com.android.support:appcompat-v7:27.1.1'
 
-  api 'com.asfoundation:appcoins-ads:0.3.2a'
-  api 'com.asfoundation:appcoins-iab:0.3.2a'
+  api 'com.asfoundation:appcoins-ads:0.3.8a'
+  api 'com.asfoundation:appcoins-iab:0.3.8a'
 }
 
 def renameArtifact(defaultConfig) {
